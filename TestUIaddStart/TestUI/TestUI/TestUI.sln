@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "TestUI\TestUI.csproj", "{8145276A-06A2-4B74-B35D-3384A11DE530}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissBracket", "TestUI\SwissBracket.csproj", "{8145276A-06A2-4B74-B35D-3384A11DE530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

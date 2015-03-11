@@ -59,3 +59,4 @@ C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\Page1.baml
 C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\Window1.baml
 C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\Page1.g.cs
 C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\Window1.g.cs
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\bin\Debug\SwissBracket.exe.config

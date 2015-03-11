@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TestUI
+namespace SwissBracket
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -74,6 +74,13 @@ namespace TestUI
         private void rdNo_UnChecked(object sender, RoutedEventArgs e)
         {
             btnDetails.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void btnDetails_Click(object sender, RoutedEventArgs e)
+        {
+            ChampBracketDetail ChampBracket = new ChampBracketDetail();
+            App.Current.MainWindow = ChampBracket;
+            ChampBracket.Show();
         }
 
     }

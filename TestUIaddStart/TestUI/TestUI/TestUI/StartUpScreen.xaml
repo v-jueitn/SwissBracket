@@ -1,4 +1,4 @@
-﻿<Window x:Name="StartUpScreen1" x:Class="TestUI.StartUpScreen"
+﻿<Window x:Name="StartUpScreen1" x:Class="SwissBracket.StartUpScreen"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Swiss Bracket" Height="450" Width="350" ResizeMode="NoResize" Icon="zebraIcon.ico">
