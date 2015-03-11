@@ -44,7 +44,7 @@
                             <Trigger Property="IsSelected" Value="True">
                                 <Setter TargetName="border"
                                         Property="Background"
-                                        Value="White" 
+                                        Value="Black" 
                                         />
                             </Trigger>
                         </ControlTemplate.Triggers> 

@@ -40,3 +40,6 @@ C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI_Mar
 C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI.g.resources
 C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI.Properties.Resources.resources
 C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI.csproj.GenerateResource.Cache
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\bin\Debug\TestUI.exe.config
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI.exe
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\TestUI.pdb
