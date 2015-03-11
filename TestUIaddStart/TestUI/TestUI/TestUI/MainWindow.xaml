@@ -82,7 +82,7 @@
                         <StackPanel Height="30" Width="500" Orientation="Horizontal" >
                             <RadioButton IsChecked="True"  GroupName="ChampBrack" Margin="10,0" FontSize="16" VerticalAlignment="Center">Yes</RadioButton>
                             <RadioButton GroupName="ChampBrack" Margin="10,0" FontSize="16" VerticalAlignment="Center" Checked="rdNo_Checked" Unchecked="rdNo_UnChecked">No</RadioButton>
-                            <Button x:Name="btnDetails" Height="27" Width="70" FontSize="15" Margin="10,0">Details</Button>
+                            <Button x:Name="btnDetails" Height="27" Width="70" FontSize="15" Margin="10,0">Detail111s</Button>
                         </StackPanel> 
                         <StackPanel Height="180" Width="500" Margin="0,15" Orientation="Horizontal">
                             <GroupBox Header="Tie Breakers" FontSize="16" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="150" Width="400" Margin="0">
