@@ -35,7 +35,7 @@ namespace TestUI
 
         private void SetGridColumns() {
             List<ItemClass> items = new List<ItemClass>();
-            for (int x = 0; x < 17; x++)
+            for (int x = 0; x < 20; x++)
             {
                 items.Add(new ItemClass());
             }
@@ -66,5 +66,15 @@ namespace TestUI
         private void registration_Click(object sender, RoutedEventArgs e) {
             HideLastColumn(teams); 
         }
+
+        private void rdNo_Checked(object sender, RoutedEventArgs e) {
+            btnDetails.Visibility = System.Windows.Visibility.Hidden; 
+        }
+
+        private void rdNo_UnChecked(object sender, RoutedEventArgs e)
+        {
+            btnDetails.Visibility = System.Windows.Visibility.Visible;
+        }
+
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\obj\Debug\
 TestUI
 none
 false
 DEBUG;TRACE
-C:\Users\Justin\Desktop\TestUIaddStart\TestUI\TestUI\TestUI\App.xaml
-2302205763
+C:\GitRepos\NewRe\TestUIaddStart\TestUI\TestUI\TestUI\App.xaml
+4-1137577047
 
-6503188928
+81952544072
 12-1401562060
-MainWindow.xaml;StartUpScreen.xaml;
+MainWindow.xaml;Page1.xaml;StartUpScreen.xaml;Window1.xaml;
 
 False
 
