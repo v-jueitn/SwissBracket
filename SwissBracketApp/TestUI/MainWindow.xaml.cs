@@ -58,10 +58,6 @@ namespace SwissBracket
         
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            HideLastColumn(teams);
-        }
 
         private void registration_Click(object sender, RoutedEventArgs e) {
             HideLastColumn(teams); 
