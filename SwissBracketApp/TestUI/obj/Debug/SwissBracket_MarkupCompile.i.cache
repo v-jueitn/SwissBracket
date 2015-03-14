@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\GitHubRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\
+C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\
 SwissBracket
 none
 false
 DEBUG;TRACE
-C:\GitHubRepos\SwissBracket\SwissBracketApp\TestUI\App.xaml
-3-291495418
+C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\App.xaml
+4-757019366
 
-1142283446
+12-562911871
 12-1401562060
-ChampionshipBracketDetail.xaml;MainWindow.xaml;StartUpScreen.xaml;
+ChampionshipBracketDetail.xaml;MainWindow.xaml;ManageSwiss.xaml;StartUpScreen.xaml;
 
 False
 
