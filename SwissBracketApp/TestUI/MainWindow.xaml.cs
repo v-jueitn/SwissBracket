@@ -42,7 +42,7 @@ namespace SwissBracket
             teams.ItemsSource = items;
         }
 
-        private void HideLastColumn(DataGrid dg) {
+        private void SetColumnWidth(DataGrid dg) {
             if (dg == null)
                 return;
 
@@ -60,7 +60,7 @@ namespace SwissBracket
 
 
         private void registration_Click(object sender, RoutedEventArgs e) {
-            HideLastColumn(teams); 
+            SetColumnWidth(teams); 
         }
 
         private void rdNo_Checked(object sender, RoutedEventArgs e) {
