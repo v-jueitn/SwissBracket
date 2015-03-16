@@ -52,8 +52,13 @@
                 </Setter.Value>
             </Setter>
         </Style>
+<<<<<<< HEAD
     </Window.Resources>
     <Grid>
+=======
+    </Window.Resources>
+    <Grid>
+>>>>>>> origin/master
         <TabControl Height="570" Width="650" Margin="10,5,10,5" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}">
             <TabItem Width="135" Height="28" Margin="10,0,10,0" Header="Current Standings" FontSize="13" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" >
                 <Grid Background="{x:Null}">
@@ -76,6 +81,12 @@
                 <Grid Background="{x:Null}">
                 </Grid>
             </TabItem>
+<<<<<<< HEAD
         </TabControl>
     </Grid>
 </Window>
+=======
+        </TabControl>
+    </Grid>
+</Window>
+>>>>>>> origin/master
