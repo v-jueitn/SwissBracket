@@ -71,6 +71,9 @@
     <Compile Include="ChampionshipBracketDetail.xaml.cs">
       <DependentUpon>ChampionshipBracketDetail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ManageSwiss.xaml.cs">
+      <DependentUpon>ManageSwiss.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StartUpScreen.xaml.cs">
       <DependentUpon>StartUpScreen.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ManageSwiss.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StartUpScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
