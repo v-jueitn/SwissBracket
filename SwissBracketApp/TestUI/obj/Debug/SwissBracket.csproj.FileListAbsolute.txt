@@ -49,3 +49,6 @@ C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket_MarkupCom
 C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket.g.resources
 C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket.Properties.Resources.resources
 C:\GitRepos\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket.csproj.GenerateResource.Cache
+C:\Users\MattG50\Documents\SwissBracket\SwissBracketApp\TestUI\bin\Debug\SwissBracket.exe.config
+C:\Users\MattG50\Documents\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket.exe
+C:\Users\MattG50\Documents\SwissBracket\SwissBracketApp\TestUI\obj\Debug\SwissBracket.pdb

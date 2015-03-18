@@ -60,22 +60,22 @@
                     <StackPanel Orientation="vertical" Margin="0,10">
                         <StackPanel Height="30" Width="500" Margin="0,5" Orientation="Horizontal" >
                             <Label Content="Number of Rounds:" Height="22" Width="170" Margin="0" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left"  VerticalContentAlignment="Center" Padding="5,0"/>
-                            <TextBox Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
+                            <TextBox x:Name="txtNumRounds" Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
                             <Label Height="22" Margin="10,0" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0" >Suggested: 9</Label>
                         </StackPanel>
                         <StackPanel Height="30" Width="500" Margin="0,10" Orientation="Horizontal" >
                             <Label Content="Round Time Limit:" Height="22" Width="170" Margin="0" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,0"/>
-                            <TextBox Height="20" Width="35" Margin="5,0" Padding="5,0"></TextBox>
+                            <TextBox x:Name="txtTimeLimit" Height="20" Width="35" Margin="5,0" Padding="5,0"></TextBox>
                         </StackPanel>
                         <StackPanel Height="60" Width="500" Margin="0,10,0,5"  Orientation="Vertical">
                             <Label Content="How Many Points For:" Height="22" Margin="0" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left"  VerticalContentAlignment="Center" Padding="5,0"/>
                             <StackPanel Height="30" Width="490" Orientation="Horizontal" >
                                 <Label Content="Win:" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <TextBox Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
+                                <TextBox x:Name="txtWin" Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
                                 <Label Content="Loss:" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <TextBox Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
+                                <TextBox x:Name="txtLoss" Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
                                 <Label Content="Tie:" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <TextBox Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
+                                <TextBox x:Name="txtTie" Height="20" Width="35" Margin="5" Padding="5,0"></TextBox>
                             </StackPanel>
                         </StackPanel>
                         <Label Content="Will There Be a Championship Bracket?" Height="22" Width="500" Margin="0,10,0,5" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,0"/>
@@ -89,7 +89,7 @@
                                 <StackPanel Height="100" Width="400" Orientation="Vertical">
                                     <StackPanel Height="20" Width="400" Margin="0,5" Orientation="Horizontal" >
                                         <Label Content="Rank 1:" Height="22" Margin="20,0" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                        <ComboBox FontSize="16" Height="22" Width="100">
+                                        <ComboBox x:Name="cmbxRank1" FontSize="16" Height="22" Width="100">
                                             <ComboBoxItem>Points Scored</ComboBoxItem>
                                             <ComboBoxItem>Points Against</ComboBoxItem>
                                             <ComboBoxItem>Points Difference</ComboBoxItem>
@@ -98,7 +98,7 @@
                                     </StackPanel>
                                     <StackPanel Height="20" Width="400" Margin="0,5" Orientation="Horizontal" >
                                         <Label Content="Rank 2:" Height="22" Margin="20,0" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                        <ComboBox FontSize="16" Height="22" Width="100">
+                                        <ComboBox x:Name="cmbxRank2" FontSize="16" Height="22" Width="100">
                                             <ComboBoxItem>Points Scored</ComboBoxItem>
                                             <ComboBoxItem>Points Against</ComboBoxItem>
                                             <ComboBoxItem>Points Difference</ComboBoxItem>
@@ -107,7 +107,7 @@
                                     </StackPanel>
                                     <StackPanel Height="20" Width="400" Margin="0,5" Orientation="Horizontal" >
                                         <Label Content="Rank 3:" Height="22" Margin="20,0" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                        <ComboBox FontSize="16" FontWeight="Medium" Height="24" Width="100">
+                                        <ComboBox x:Name="cmbxRank3" FontSize="16" FontWeight="Medium" Height="24" Width="100">
                                             <ComboBoxItem>Points Scored</ComboBoxItem>
                                             <ComboBoxItem>Points Against</ComboBoxItem>
                                             <ComboBoxItem>Points Difference</ComboBoxItem>
@@ -144,22 +144,22 @@
                             <Label Content="How Many Points For:" Height="22" Margin="50,0,0,0" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left"  VerticalContentAlignment="Center" Padding="5,0"/>
                             <StackPanel Height="30" Width="490" Orientation="Horizontal" >
                                 <Label Content="Win:" Height="22" Margin="50,0,0,0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <Label Content="WINPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
+                                <Label x:Name="lblWin" Content="WINPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
                                 <Label Content="Loss:" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <Label Content="LOSSPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
+                                <Label x:Name="lblLoss" Content="LOSSPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
                                 <Label Content="Tie:" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
-                                <Label Content="TIEPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
+                                <Label x:Name="lblTie" Content="TIEPTS" Height="22" Margin="0" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5,0"/>
                             </StackPanel>
                         </StackPanel>
                         <StackPanel Width="500" Margin="0,5" Orientation="Horizontal">
                             <Label Content="Will There Be a Championship Bracket?" Height="22" Width="310" Margin="50,5,0,5" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,0"/>
-                            <Label Content="YES" Height="22" Width="40" Margin="0,5,0,5" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>                       
+                            <Label x:Name="lblChampionship" Content="YES" Height="22" Width="40" Margin="0,5,0,5" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>                       
                         </StackPanel>
                         <StackPanel Width="500" Margin="0,10" Orientation="Horizontal">
                             <Label Content="Number of Registered Teams" Height="22" Width="310" Margin="50,5,0,5" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,0"/>
-                            <Label Content="YES" Height="22" Width="40" Margin="0,5,0,5" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
+                            <Label x:Name="lblNumTeams" Content="YES" Height="22" Width="40" Margin="0,5,0,5" FontSize="16" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0"/>
                         </StackPanel>
-                        <Button Content="Start Tournament" Height="30" Width="150" Margin="0,15" FontSize="15" FontWeight="Bold"></Button>
+                        <Button x:Name="btnStartTournament" Content="Start Tournament" Height="30" Width="150" Margin="0,15" FontSize="15" FontWeight="Bold" Click="btnStartTournament_Click"></Button>
                     </StackPanel> <!-- END VERTICAL-->
                 </Grid>
             </TabItem>

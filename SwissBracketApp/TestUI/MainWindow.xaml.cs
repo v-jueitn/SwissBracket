@@ -79,5 +79,13 @@ namespace SwissBracket
             ChampBracket.Show();
         }
 
+        private void btnStartTournament_Click(object sender, RoutedEventArgs e)
+        {
+            ManageSwiss ManageTournament = new ManageSwiss();
+            App.Current.MainWindow = ManageTournament;
+            ManageTournament.Show();
+            this.Close();
+        }
+
     }
 }
